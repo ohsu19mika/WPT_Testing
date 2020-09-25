@@ -1,0 +1,26 @@
+{
+  "name": "wpt_testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "add": "node add.js",
+    "remove": "node remove.js",
+    "update": "node update.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ohsu19mika/WPT_Testing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ohsu19mika/WPT_Testing/issues"
+  },
+  "homepage": "https://github.com/ohsu19mika/WPT_Testing#readme",
+  "dependencies": {
+    "mongodb": "^3.6.2",
+    "mongoose": "^5.10.7"
+  }
+}
